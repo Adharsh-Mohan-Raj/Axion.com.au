@@ -1,0 +1,215 @@
+ /* Remove default margin and set font for the whole page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the navigation bar */
+.navbar {
+  background-color: rgb(256, 256, 256); /* white background */
+  color: rgb (0,0,0); /* black text */
+  text-align: center;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+/* Style for the logo inside the navbar */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 13px;
+}
+
+/* Style for anchor links */
+a {
+  padding: 13px 16px;
+  display: inline;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: auto;
+  color: #f8f9fa; /* light text color */
+  text-decoration: none;
+  margin-top: 13px;
+  text-align: center;
+  width: 100px;
+}
+
+/* Style for h2 headings */
+h2 {
+  text-align: left;
+  margin-left: 13px;
+  margin-top: 27px;
+  font-size: 40px;
+  font-family: Goldman;
+  font-weight: 400;
+}
+
+/* Container for navigation buttons */
+.nav-buttons {
+  align-items: center;
+  margin-left: 480px;
+  font-family: Goldman;
+  background-color: rgb(256, 256, 256); /* white background */
+  border: rgb(0, 0, 0); /* black border */
+}
+
+/* Style for all images */
+img {
+  width: 100%;
+  height: 640px;
+}
+
+/* Style for h3 inside .our_model section */
+.our_model h3 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Goldman;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+/* Style for paragraph inside .our_model section */
+.our_model p {
+  line-height: 35px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Goldman;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+/* Style for .our_model container */
+.our_model {
+  border-radius: 20px;
+  border-width: 500px;
+  background-color: #E9ECEF;
+  width: 1480px;
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Center all h3 headings */
+h3 {
+  text-align: center;
+}
+
+/* Style for buttons inside .nav-buttons */
+.nav-buttons button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-family: 'Goldman', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hover effect for nav buttons */
+.nav-buttons button:hover {
+  background-color: #E9ECEF;
+  color: black;
+}
+
+/* Layout for two images side by side */
+.double-image-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Style for image container */
+.image-box {
+  width: 720px;
+  height: 420px;
+  border-radius: 20px;
+  background-color: #E9ECEF;
+  overflow: hidden;
+}
+
+/* Style for image inside image-box */
+.image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* Layout for row with image and text side by side */
+.row-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Style for text container */
+.text-box {
+  width: 680px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #E9ECEF;
+  padding: 20px;
+  font-family: Goldman;
+}
+
+/* Style for h3 inside text-box */
+.text-box h3 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Style for paragraph inside text-box */
+.text-box p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+/* Style for introduction section */
+.introduction {
+  width: 1450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Style for image container in introduction */
+.intro-image-box {
+  width: 1470px;
+  margin-left: 30px;
+}
+
+/* Style for text container in introduction */
+.intro-box {
+  width: 1420px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #E9ECEF;
+  padding: 20px;
+  font-family: Goldman;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+/* Style for h3 inside intro-box */
+.intro-box h3 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Style for paragraph inside intro-box */
+.intro-box p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
